@@ -11,7 +11,7 @@ const useProduct = () => {
                 setProducts(data);
             });
     }, []);
-    return [products];
+    return [products, setProducts];
 };
 
 export default useProduct;
